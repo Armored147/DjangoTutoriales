@@ -1,14 +1,18 @@
-{% extends 'pages/base.html' %} 
-{% block title %} Contact {% endblock %} 
-{% block header_title %} Contact {% endblock %} 
-{% block content %} 
-<div class="container"> 
-  <div class="row"> 
-    <div class="col-lg-6"> 
-      <p class="lead">Email: Larabel@example.com</p> 
-      <p class="lead">Address: Cll 20B crr 100B #167</p> 
-      <p class="lead">Phone: +57-3004387680</p> 
-    </div> 
-  </div> 
-</div> 
+{% extends 'pages/base.html' %}
+{% block title %} {{title}} {% endblock %}
+{% block header_title %} {{subtitle}} {% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+    <div class="col-lg-4 ms-auto">
+    <p class="lead">icamayaa@eafit.edu.co</p>
+    </div>
+    <div class="col-lg-4 me-auto">
+    <p class="lead">Medellin, Universidad EAFIT</p>
+    </div>
+    <div class="col-lg-4 me-auto">
+    <p class="lead">Call to = +57 350473....</p>
+    </div>
+    </div>
+</div>
 {% endblock %}
